@@ -37,7 +37,11 @@ Developers hate to read code.
 
 ## The Fundamental Law of Software
 
-** It’s harder to read code than to write it **
+** It's harder to read code than to write it **
+
+## The Fundamental Law of Life
+
+** It's hard to listen, it's easy to speak **
 
 ## Legacy is Good
 
@@ -58,7 +62,7 @@ hard.
 
 Every project which is valuable and lasts will eventually become legacy.
 
-And your project too.
+Hopefully your projects will too (or they already are)!
 
 ## Scenario
 
@@ -74,12 +78,7 @@ Google decides to hire your developer.
 
 He's leaving next week.
 
-## What do you do?
-
-1. You panic
-2. You search for a new developer
-
-## The Bad News, Pt I
+## The Bad News. Case 1
 
 You find a new developer: he is a junior developer, he seems moderately skilled and he is very excited to join your project.
 
@@ -89,7 +88,7 @@ After a week of work, he complains that:
 * Features can't be added that easily
 * Tests keep breaking all the time for misterious reasons
 
-## The Bad News, Pt II
+## The Bad News. Case 2
 
 You find a new developer: he is a senior developer, he seems very skilled and he is very excited to join your project.
 
@@ -99,19 +98,17 @@ After a week of work, he complains that:
 * Features can't be added that easily
 * The test architecture is horrible and need to be re-written.
 
+## Different people, different values
 
-## Why does this happen?
+* Every developer has it's own style, priorities, values
+* Something is just personal flavour, annoying for other people, but not
+  necessarily bad
+* While you're in car, who is faster than you is crazy, who is slower is a snail
+* HATERS GONNA HATE
 
-If you focus on "working software", you only care if the software works:
+## Code Smells
 
-* if it works, it's good
-* if it doesn't, it's bad
-
-The risk is that you lose the vision on the quality of your product.
-
-## From working software to better software
-
-Software has intrinsic, measurable defects:
+* Instead there are some known intrinsic, measurable, problems of code, like:
 
 * Complexity
 * Duplication
@@ -122,11 +119,9 @@ These metrics aren't 100% accurate, but they introduce measurable data that we c
 
 ## Code metrics
 
-* SonarQube (aka Sonar), C/C++/Java/Python
 * Code Climate, Ruby/Javascript
-* Scrutinizer CI, PHP
 
-Aggiungere un po' di screenshot
+* PICTURE TIME
 
 ## Why are these useful?
 
@@ -146,6 +141,21 @@ Let's say we are looking for a file uploader in rails.
 * jnicklas/carrierwave has a GPA of 3.57
 * markevans/dragonfly  has a GPA of 3.7
 * bbenezech/papermill  has a GPA of 0.21
+
+## Working software
+
+If you focus on "working software", you only care if the software works:
+
+* if it works, it's good
+* if it doesn't, it's bad
+
+The risk is that you lose the vision on the quality of your product.
+
+## From working software to better software
+
+* Don't let code smells rot your codebase
+* Measure things
+* Give yourself rules of code quality and stick to them
 
 ## Roundup
 
